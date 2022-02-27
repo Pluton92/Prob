@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://cdn-st1.rtr-vesti.ru/vh/pictures/xw/210/900/5.jpg") no-repeat;
+  background-size: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  color: blueviolet;
+  text-shadow: 0px 0px 3px black;
+}
+.jevel {
+    width: 47%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+   }
+   .jevel th {
+    background-color: deepskyblue;
+    color: black;
+   }
+ .jevel td, .jevel th {
+  padding: 5px;
+  text-align: left;
+  border: 2px solid #000;
+ }
