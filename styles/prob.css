@@ -1,3 +1,5 @@
+/* line 1, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\000031}}
 body {
   width: 100%;
   background-color: #041d3c;
@@ -5,9 +7,13 @@ body {
   padding: 0;
   margin: 0;
 }
+/* line 8, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\000038}}
 body p {
   margin: 0;
 }
+/* line 13, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000313}}
 .wraper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,10 +27,14 @@ body p {
           justify-content: center;
   padding: 0 12px;
 }
+/* line 19, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000319}}
 .wraper h2 {
   text-align: left;
   color: goldenrod;
 }
+/* line 24, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000324}}
 .wraper__top-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,6 +45,8 @@ body p {
           justify-content: space-between;
   margin-bottom: 15px;
 }
+/* line 30, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000330}}
 .wraper__top-row .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,6 +60,8 @@ body p {
   background-color: lightgray;
   overflow: hidden;
 }
+/* line 38, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000338}}
 .wraper__top-row .card p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -61,20 +75,119 @@ body p {
   padding: 8px;
   color: ghostwhite;
 }
+/* line 45, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000345}}
 .wraper__top-row .card p:not(:last-child) {
   background-color: #5187fe;
 }
+/* line 49, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000349}}
 .wraper__top-row .card p:last-child {
   display: inline;
   text-align: center;
   color: black;
+  margin-top: auto;
 }
+/* line 56, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000356}}
 .wraper__top-row .card p span {
   font-size: 12px;
 }
+/* line 61, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000361}}
 .wraper__top-row .card:not(:last-child) {
   margin-right: 15px;
 }
+/* line 65, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000365}}
+.wraper__top-row .card .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+/* line 69, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000369}}
+.wraper__top-row .card .text ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  padding: 0;
+  margin: 10px 0;
+}
+/* line 76, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000376}}
+.wraper__top-row .card .text ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 4px auto;
+  margin-left: 8px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 4px 0;
+}
+/* line 89, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000389}}
+.wraper__top-row .card .text ul li span {
+  color: gray;
+  text-decoration: none;
+}
+/* line 94, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000394}}
+.wraper__top-row .card .text ul li:visited {
+  color: #8F8E8E;
+}
+/* line 98, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\0000398}}
+.wraper__top-row .card .text ul li:hover {
+  color: #5187fe;
+  background: -webkit-gradient(linear, left top, right top, from(#bcbcc9), color-stop(80%, lightgray));
+  background: linear-gradient(90deg, #bcbcc9 0%, lightgray 80%);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 2px 0;
+}
+/* line 108, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003108}}
+.wraper__top-row .card .text .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 95%;
+  width: 10%;
+  margin: 10px 0;
+}
+/* line 116, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003116}}
+.wraper__top-row .card .text .arrows i {
+  color: gray;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+/* line 126, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003126}}
 .wraper__top-row .top-row__item1 .slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,9 +202,13 @@ body p {
   position: relative;
   margin-top: 8px;
 }
+/* line 134, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003134}}
 .wraper__top-row .top-row__item1 .slider span {
   cursor: pointer;
 }
+/* line 138, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003138}}
 .wraper__top-row .top-row__item1 .slider .triangle-r {
   width: 0;
   height: 0;
@@ -99,6 +216,8 @@ body p {
   border-bottom: 5px solid transparent;
   border-right: 10px solid gray;
 }
+/* line 146, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003146}}
 .wraper__top-row .top-row__item1 .slider .triangle-l {
   width: 0;
   height: 0;
@@ -106,79 +225,8 @@ body p {
   border-bottom: 5px solid transparent;
   border-left: 10px solid gray;
 }
-.wraper .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-.wraper .text ul {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 90%;
-  padding: 0;
-  margin: 10px 0;
-}
-.wraper .text ul li {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  list-style-type: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 4px auto;
-  margin-left: 8px;
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-  width: 100%;
-  padding: 4px 0;
-}
-.wraper .text ul li span {
-  color: gray;
-  text-decoration: none;
-}
-.wraper .text ul li:visited {
-  color: #8F8E8E;
-}
-.wraper .text ul li:hover {
-  color: #5187fe;
-  background: -webkit-gradient(linear, left top, right top, from(#bcbcc9), color-stop(80%, lightgray));
-  background: linear-gradient(90deg, #bcbcc9 0%, lightgray 80%);
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  margin: 2px 0;
-}
-.wraper .text .arrows {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 100%;
-  width: 10%;
-  margin: 10px 0;
-  list-style-type: none;
-}
-.wraper .text .arrows i {
-  color: gray;
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-}
+/* line 158, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003158}}
 .wraper__middle-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,7 +236,14 @@ body p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.wraper__middle-row .card2 {
+/* line 163, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003163}}
+.wraper__middle-row .row-left {
+  display: block;
+}
+/* line 166, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003166}}
+.wraper__middle-row .row-left__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,12 +251,15 @@ body p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
+  width: 774px;
+  height: 100%;
   border-radius: 10px;
   background-color: lightgray;
   overflow: hidden;
 }
-.wraper__middle-row .card2 p {
+/* line 175, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003175}}
+.wraper__middle-row .row-left__item p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -214,21 +272,29 @@ body p {
   padding: 8px;
   color: ghostwhite;
 }
-.wraper__middle-row .card2 p:not(:last-child) {
+/* line 182, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003182}}
+.wraper__middle-row .row-left__item p:not(:last-child) {
   background-color: #74c3fe;
 }
-.wraper__middle-row .card2 p:last-child {
+/* line 186, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003186}}
+.wraper__middle-row .row-left__item p:last-child {
   display: inline;
   text-align: center;
   color: black;
 }
-.wraper__middle-row .card2 .text {
+/* line 194, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003194}}
+.wraper__middle-row .row-left__item .information {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
-.wraper__middle-row .card2 .text ol {
+/* line 201, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003201}}
+.wraper__middle-row .row-left__item .information ol {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -240,7 +306,9 @@ body p {
   padding: 0;
   margin: 10px 0;
 }
-.wraper__middle-row .card2 .text ol li {
+/* line 208, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003208}}
+.wraper__middle-row .row-left__item .information ol li {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -258,11 +326,15 @@ body p {
   width: 100%;
   padding: 4px 0;
 }
-.wraper__middle-row .card2 .text ol li span {
+/* line 221, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003221}}
+.wraper__middle-row .row-left__item .information ol li span {
   color: #5187fe;
   text-decoration: none;
 }
-.wraper__middle-row .card2 .text ol li:hover {
+/* line 226, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003226}}
+.wraper__middle-row .row-left__item .information ol li:hover {
   color: #c39f;
   background: -webkit-gradient(linear, left top, right top, from(#bcbcc9), color-stop(80%, lightgray));
   background: linear-gradient(90deg, #bcbcc9 0%, lightgray 80%);
@@ -270,7 +342,34 @@ body p {
   border-bottom: 2px solid white;
   margin: 2px 0;
 }
-.wraper__middle-row .card3 {
+/* line 239, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003239}}
+.wraper__middle-row .row-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/* line 246, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003246}}
+.wraper__middle-row .row-right .infoCard {
+  width: 49%;
+  margin-bottom: 10px;
+}
+/* line 250, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003250}}
+.wraper__middle-row .row-right .infoCard:nth-child(even) {
+  margin-right: 1%;
+}
+/* line 255, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003255}}
+.wraper__middle-row .row-right__item1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,13 +377,14 @@ body p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
   height: 150px;
   border-radius: 10px;
   background-color: lightgray;
   overflow: hidden;
 }
-.wraper__middle-row .card3 p {
+/* line 263, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003263}}
+.wraper__middle-row .row-right__item1 p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -297,22 +397,30 @@ body p {
   padding: 8px;
   color: ghostwhite;
 }
-.wraper__middle-row .card3 p:not(:last-child) {
+/* line 270, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003270}}
+.wraper__middle-row .row-right__item1 p:not(:last-child) {
   background-color: #7e5aba;
 }
-.wraper__middle-row .card3 p:last-child {
+/* line 274, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003274}}
+.wraper__middle-row .row-right__item1 p:last-child {
   display: inline;
   text-align: center;
   color: black;
 }
-.wraper__middle-row .card3 .graf {
+/* line 281, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003281}}
+.wraper__middle-row .row-right__item1 .graf {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin: 10px auto;
 }
-.wraper__middle-row .card3 .graf span {
+/* line 286, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003286}}
+.wraper__middle-row .row-right__item1 .graf span {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -325,7 +433,9 @@ body p {
   position: relative;
   cursor: pointer;
 }
-.wraper__middle-row .card3 .graf span:before {
+/* line 296, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003296}}
+.wraper__middle-row .row-right__item1 .graf span:before {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -339,7 +449,9 @@ body p {
   -webkit-transform: rotateZ(90deg) translateX(-3px);
           transform: rotateZ(90deg) translateX(-3px);
 }
-.wraper__middle-row .card3 .graf span:after {
+/* line 308, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003308}}
+.wraper__middle-row .row-right__item1 .graf span:after {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -356,7 +468,9 @@ body p {
   transition: all 0.3s;
   opacity: 0;
 }
-.wraper__middle-row .card3 .graf span:hover {
+/* line 323, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003323}}
+.wraper__middle-row .row-right__item1 .graf span:hover {
   color: #5187fe;
   background: -webkit-gradient(linear, left top, right top, from(#bcbcc9), color-stop(80%, lightgray));
   background: linear-gradient(90deg, #bcbcc9 0%, lightgray 80%);
@@ -364,12 +478,16 @@ body p {
   border-bottom: 2px solid white;
   margin: 2px 0;
 }
-.wraper__middle-row .card3 .graf span:hover:after {
+/* line 330, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003330}}
+.wraper__middle-row .row-right__item1 .graf span:hover:after {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 1;
 }
-.wraper .card4 {
+/* line 339, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003339}}
+.wraper__middle-row .row-right__item2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,38 +501,50 @@ body p {
   background-color: lightgray;
   overflow: hidden;
 }
-.wraper .card4 p {
+/* line 348, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003348}}
+.wraper__middle-row .row-right__item2 p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
   padding: 8px;
   color: ghostwhite;
 }
-.wraper .card4 p:not(:last-child) {
+/* line 355, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003355}}
+.wraper__middle-row .row-right__item2 p:not(:last-child) {
   background-color: #7e5aba;
 }
-.wraper .card4 p:last-child {
+/* line 359, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003359}}
+.wraper__middle-row .row-right__item2 p:last-child {
   display: inline;
   text-align: center;
   color: black;
 }
-.wraper .card4 p span {
+/* line 365, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003365}}
+.wraper__middle-row .row-right__item2 p span {
   font-size: 12px;
 }
-.wraper .card4 .graf2 {
+/* line 370, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003370}}
+.wraper__middle-row .row-right__item2 .graf2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin: 10px auto;
 }
-.wraper .card4 .graf2 span {
+/* line 375, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003375}}
+.wraper__middle-row .row-right__item2 .graf2 span {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -427,7 +557,9 @@ body p {
   position: relative;
   cursor: pointer;
 }
-.wraper .card4 .graf2 span:before {
+/* line 385, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003385}}
+.wraper__middle-row .row-right__item2 .graf2 span:before {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -441,7 +573,9 @@ body p {
   -webkit-transform: rotateZ(90deg) translateX(-3px);
           transform: rotateZ(90deg) translateX(-3px);
 }
-.wraper .card4 .graf2 span:after {
+/* line 397, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003397}}
+.wraper__middle-row .row-right__item2 .graf2 span:after {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -458,7 +592,9 @@ body p {
   transition: all 0.3s;
   opacity: 0;
 }
-.wraper .card4 .graf2 span:hover {
+/* line 412, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003412}}
+.wraper__middle-row .row-right__item2 .graf2 span:hover {
   color: #5187fe;
   background: -webkit-gradient(linear, left top, right top, from(#bcbcc9), color-stop(80%, lightgray));
   background: linear-gradient(90deg, #bcbcc9 0%, lightgray 80%);
@@ -466,9 +602,219 @@ body p {
   border-bottom: 2px solid white;
   margin: 2px 0;
 }
-.wraper .card4 .graf2 span:hover:after {
+/* line 419, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003419}}
+.wraper__middle-row .row-right__item2 .graf2 span:hover:after {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 1;
+}
+/* line 428, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003428}}
+.wraper__middle-row .row-right__item3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: lightgray;
+  overflow: hidden;
+}
+/* line 437, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003437}}
+.wraper__middle-row .row-right__item3 p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 8px;
+  color: ghostwhite;
+}
+/* line 444, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003444}}
+.wraper__middle-row .row-right__item3 p:not(:last-child) {
+  background-color: #7e5aba;
+}
+/* line 448, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003448}}
+.wraper__middle-row .row-right__item3 p:last-child {
+  display: inline;
+  text-align: center;
+  color: black;
+}
+/* line 455, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003455}}
+.wraper__middle-row .row-right__item3 .graf3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+}
+/* line 460, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003460}}
+.wraper__middle-row .row-right__item3 .graf3 span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10%;
+  height: 30px;
+  border-bottom: 2px solid darkgrey;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+/* line 470, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003470}}
+.wraper__middle-row .row-right__item3 .graf3 span:before {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 2px;
+  content: "";
+  background-color: darkgrey;
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  -webkit-transform: rotateZ(90deg) translateX(-3px);
+          transform: rotateZ(90deg) translateX(-3px);
+}
+/* line 482, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003482}}
+.wraper__middle-row .row-right__item3 .graf3 span:after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 10px solid darkgrey;
+  position: absolute;
+  left: 25%;
+  bottom: -50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+}
+/* line 497, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003497}}
+.wraper__middle-row .row-right__item3 .graf3 span:hover {
+  color: #5187fe;
+  background: -webkit-gradient(linear, left top, right top, from(#bcbcc9), color-stop(80%, lightgray));
+  background: linear-gradient(90deg, #bcbcc9 0%, lightgray 80%);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 2px 0;
+}
+/* line 504, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003504}}
+.wraper__middle-row .row-right__item3 .graf3 span:hover:after {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
+}
+/* line 512, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003512}}
+.wraper__middle-row .row-right__item3 .grad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: -16px auto;
+}
+/* line 517, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003517}}
+.wraper__middle-row .row-right__item3 .grad span {
+  @grafcolor : white display: inline-flex;
+  width: 100%;
+  height: 0;
+  border-bottom: 6px solid white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+/* line 528, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003528}}
+.wraper__middle-row .row-right__item3 .grad span:after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 10px solid white;
+  position: absolute;
+  left: 25%;
+  bottom: -50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+}
+/* line 549, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003549}}
+.wraper__middle-row .row-right .item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: lightgray;
+  overflow: hidden;
+}
+/* line 558, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003558}}
+.wraper__middle-row .row-right .item4 p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 8px;
+  color: ghostwhite;
+}
+/* line 565, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003565}}
+.wraper__middle-row .row-right .item4 p:not(:last-child) {
+  background-color: #7e5aba;
+}
+/* line 569, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003569}}
+.wraper__middle-row .row-right .item4 p:last-child {
+  display: inline;
+  text-align: center;
+  color: black;
+}
+/* line 574, /home/stas/Рабочий стол/Prob/Prob/styles/prob.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stas\/Рабочий стол\/Prob\/Prob\/styles\/prob\.less}line{font-family:\00003574}}
+.wraper__middle-row .row-right .item4 p:last-child span {
+  font-size: 12px;
 }
 /*# sourceMappingURL=prob.css.map */
